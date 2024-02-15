@@ -2,6 +2,6 @@ namespace _3DTools;
 
 public class Direction
 {
-	public required double AzimuthalAngle { get; set; }
-	public required double PolarAngle { get; set; }
+	public required decimal AzimuthalAngle { get; init; }
+	public required decimal PolarAngle { get; init; }
 }
